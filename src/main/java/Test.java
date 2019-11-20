@@ -69,7 +69,7 @@ public class Test {
 				CaptureType.RESPONSE_HEADERS, CaptureType.RESPONSE_CONTENT));
 		proxy.newHar("weather.com");
 
-		driver.get("http://weather.com");
+		driver.get("http://google.com");
 
 		Thread.sleep(5000);
 
